@@ -1,0 +1,17 @@
+User-agent: *
+
+Disallow: /lp
+Disallow: /en/
+Disallow: /EN/
+Disallow: /EN
+Disallow: /en
+Disallow: /pdf/
+Disallow: /uploads/
+Disallow: /assets/
+Disallow: /FAQ/
+Disallow: /faq/
+Disallow: /news/
+Disallow: /get-fix-api2
+Allow: /partnership
+
+Sitemap: https://www.triveinvest.co.id/sitemap.xml

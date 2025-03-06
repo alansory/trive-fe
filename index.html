@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PD3TMG57');</script>
+<!-- End Google Tag Manager -->
+    <script>
+        (function (d, t) {
+            var e = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            e.src = "https://wps.relateddigital.com/relatedpush_sdk.js?ckey=D76E7A2DAAA64B688C48E4C4F5872DF1&aid=db5e6315-d199-4eba-b50c-34adb5ba7d95";
+            e.async = true;
+            s.parentNode.insertBefore(e, s);
+        }(document, "script"));</script>
+ 
+      <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "ix3m594jsc");
+</script>
+ 
+    <link rel="alternate" href="https://www.triveinvest.co.id/" hreflang="id-ID" />
+    <link rel="alternate" href="https://www.triveinvest.co.id/en" hreflang="en-ID" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+    <link rel="icon" type="image/x-icon" href="/assets/img/header/favicon.ico" />
+    <link rel="stylesheet" href="/assets/plugins/simpleScrollBar/simplebar.css" />
+    <link rel="stylesheet" href="/assets/css/core.min.css" />
+    <link rel="stylesheet" href="/assets/plugins/swiper/css/swiper.min.css" />
+    <link rel="stylesheet" href="/assets/plugins/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="/assets/css/zen.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <meta name="facebook-domain-verification" content="foq6bfzxnrn02ev3uwslzlo2vfbk0g" />
+    <script src="/assets/js/jquery.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/trv.js"></script>
+
+</head>
+<body class="pagelayout-modern">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PD3TMG57"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <div class="go-up">
+        <i class="fas fa-caret-up"></i>
+    </div>
+    <section class="top-page">
+        <script>fetchCms("header-footer"); wrt(pageData["header-footer"].top)</script>
+    </section>
+    <header class="window-position">
+        <script>wrt(pageData["header-footer"].header)</script>
+    </header>
+    <div>
+        <script>wrt(pageData["header-footer"].Modal)</script>
+    </div>
+    <div class='page-frame' style="">
+
+        <script>wrt(pageData[contentName].section1)</script>
+
+        <script>wrt(pageData[contentName].section2)</script>
+
+        <script>wrt(pageData[contentName].section3)</script>
+        <div>
+            <script>wrt(pageData[contentName].section6)</script>
+        </div>
+
+        <script>wrt(pageData[contentName].section4)</script>
+        <script>wrt(pageData[contentName].section5)</script>
+        <section class="footer window-position">
+            <script>wrt(pageData["header-footer"].footer)</script>
+            <script>wrt(pageData["header-footer"].Zendesk)</script>
+        </section>
+    </div>
+
+    <script src="/assets/plugins/swiper/js/swiper.min.js"></script>
+    <script src="/assets/plugins/simpleScrollBar/simplebar.min.js"></script>
+    <script src="/assets/js/core.js"></script>
+   
+
+   
+    <!-- <script>
+        let currentIndex = 0;
+        const visibleBoxes = 3;
+        const totalBoxes = document.querySelectorAll('.slider-box').length;
+        let interval;
+
+        function showSlides(index) {
+            const slider = document.querySelector('.slider');
+            const boxesToShow = window.innerWidth <= 900 ? 1 : visibleBoxes;
+            if (index >= totalBoxes - boxesToShow + 1) {
+                currentIndex = 0;
+            } else if (index < 0) {
+                currentIndex = totalBoxes - boxesToShow;
+            } else {
+                currentIndex = index;
+            }
+            const transformValue = -currentIndex * (100 / boxesToShow);
+            slider.style.transform = `translateX(${transformValue}%)`;
+        }
+
+        function nextSlide() {
+            showSlides(currentIndex + 1);
+        }
+
+        function prevSlide() {
+            showSlides(currentIndex - 1);
+        }
+
+        function startAutoSlide() {
+            interval = setInterval(() => {
+                nextSlide();
+            }, 4000);
+        }
+
+        function stopAutoSlide() {
+            clearInterval(interval);
+        }
+
+        // Touch event handlers
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        function handleTouchStart(event) {
+            touchStartX = event.touches[0].clientX;
+        }
+
+        function handleTouchMove(event) {
+            touchEndX = event.touches[0].clientX;
+        }
+
+        function handleTouchEnd() {
+            if (touchEndX < touchStartX) {
+                nextSlide();
+            } else if (touchEndX > touchStartX) {
+                prevSlide();
+            }
+        }
+
+        document.querySelector('.slider-container').addEventListener('mouseover', stopAutoSlide);
+        document.querySelector('.slider-container').addEventListener('mouseout', startAutoSlide);
+
+        const sliderContainer = document.querySelector('.slider-container');
+        sliderContainer.addEventListener('touchstart', handleTouchStart);
+        sliderContainer.addEventListener('touchmove', handleTouchMove);
+        sliderContainer.addEventListener('touchend', handleTouchEnd);
+
+        // Initialize the slider
+        showSlides(currentIndex);
+        startAutoSlide();
+
+        // Adjust the slider on window resize
+        window.addEventListener('resize', () => {
+            showSlides(currentIndex);
+        });
+    </script> -->
+</body>
+</html>
+
+
